@@ -1,10 +1,10 @@
-# PerfectXskills
+# PerfectXams
 
-PerfectXskills is a full-stack secure exam-paper management website built for HackIndia. It helps exam authorities upload encrypted question papers, assign them to institution organisers, lock access until the scheduled exam time, and keep a blockchain-backed record of paper metadata.
+PerfectXams is a full-stack secure exam-paper management website built for HackIndia. It helps exam authorities upload encrypted question papers, assign them to institution organisers, lock access until the scheduled exam time, and keep a blockchain-backed record of paper metadata.
 
 ## Overview
 
-Question paper leaks can break trust in an exam system. PerfectXskills is designed to reduce that risk with encrypted uploads, role-based access, scheduled unlock times, and an immutable smart-contract record for every paper.
+Question paper leaks can break trust in an exam system. PerfectXams is designed to reduce that risk with encrypted uploads, role-based access, scheduled unlock times, and an immutable smart-contract record for every paper.
 
 The website includes a public landing page, authentication portal, an exam authority dashboard, and an institution organiser dashboard.
 
@@ -26,7 +26,7 @@ The website includes a public landing page, authentication portal, an exam autho
 
 | Layer | Technologies |
 | --- | --- |
-| Frontend | React, Vite, React Router, Lucide React |
+| Frontend | React, Vite, React Router
 | Backend | Node.js, Express.js, MongoDB, Mongoose |
 | Auth | JWT, bcryptjs |
 | File Security | Multer, Node crypto, AES-256-CBC |
